@@ -234,7 +234,8 @@ class Upgrader {
   }
 
   String message() {
-    return 'A new version of ${appName()} is available! Version ${currentAppStoreVersion()} is now available-you have ${currentInstalledVersion()}.';
+    // return 'A new version of ${appName()} is available! Version ${currentAppStoreVersion()} is now available-you have ${currentInstalledVersion()}.';
+    return '${appName()} 刚刚发布了更新，请点击立即更新';
   }
 
   void checkVersion({@required BuildContext context}) {
